@@ -1,0 +1,9 @@
+.category {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-gap: 2vw;
+    min-height: 10vh;
+    padding: 0vw;
+
+}

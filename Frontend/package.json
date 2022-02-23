@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Homework for Skillfactory FPW-20 F4",
   "main": "index.js",
- 
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "proxy": "http://127.0.0.1:8000/",
   "author": "Sergey Lavrov",
   "license": "MIT",
   "dependencies": {
@@ -35,4 +35,3 @@
     "webpack-dev-server": "^4.7.3"
   }
 }
-
